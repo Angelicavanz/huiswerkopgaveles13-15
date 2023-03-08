@@ -1,0 +1,81 @@
+header {
+    height: 100px;
+    width: 100%;
+    background-color: beige;
+    padding: 10px;
+    }
+ul a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    }
+li{
+    display: inline-block;
+    list-style: none;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+}
+li:hover {
+    color: white;
+    background-color:orangered;
+}
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    margin:10px;    
+    padding: 10px;
+}
+table {
+    display: inline-block;
+    text-align: left;
+    padding: 12px;
+    border-collapse: collapse;
+    border: 2px black;
+    background-color: white;
+}
+td {
+    padding: 5px 5px;
+}
+form {
+    margin: 0 auto; 
+    padding: 10px;
+    width: 400px;
+    background-color: white;
+}
+input[type="text"], input[type="email"], textarea, button {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 75%;
+    box-sizing: border-box;
+}
+button:active {
+    background-color: black;
+    color:white;    
+}
+textarea {
+    height: 100px;
+    padding: 5px 4px;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: beige;
+    padding: 10px;
+    }
+p {
+    padding: 5px;
+    background-color: white;
+}
+H1 {
+    padding: 5px;
+    background-color: white;
+}
+img { 
+    padding: 5px;
+    background-color: white;
+}
